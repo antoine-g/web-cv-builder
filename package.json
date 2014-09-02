@@ -1,0 +1,11 @@
+{
+  "name": "web-cv-builder",
+  "version": "0.1.0",
+  "description": "Grunt tasks used to build a static curriculum website from JSON files, currently supports FR and EN generation.",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-ejs": "^0.2.0",
+    "rimraf": "^2.2.8"
+  }
+}

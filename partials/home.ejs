@@ -1,0 +1,69 @@
+<div class="row">
+  <div class="col-lg-6">
+    <!-- about me panel !-->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span class="glyphicon glyphicon-user"></span><%= panels.about_me.title %>
+      </div>
+      <div class="panel-body">
+        <table class="table">
+          <% panels.about_me.body.forEach(function(e){ %>
+            <tr><th><%= e.title %></th><td><%= e.desc %></td>
+          <% }); %>
+        </table>
+      </div>
+    </div>
+    <!-- projects panel !-->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span class="glyphicon glyphicon-book"></span><%= panels.projects.title %>
+      </div>
+      <div class="panel-body">
+        <ul class="list-group">
+          <% panels.projects.body.forEach(function(p){ %>
+          <li class="list-group-item">
+            <h3><%= p.title %></h3>
+            <p><%= p.desc %></p>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <!-- timeline panel !-->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span class="glyphicon glyphicon-time"></span><%= panels.timeline.title %>
+      </div>
+      <div class="panel-body">
+        <ul class="timeline">
+          <% panels.timeline.events.forEach(function(e){ %>
+          <li class="timeline-inverted">
+            <% if (e.type == "company"){ %>
+              <div class="timeline-badge warning"><i class="glyphicon glyphicon-briefcase"></i></div>
+            <% }else{ %>
+              <div class="timeline-badge"><i class="glyphicon glyphicon-pencil"></i></div>
+            <% } %>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title"><%= e.title %></h4>
+                <p><small class="subtitle"><%= e.subtitle %></small></p>
+              </div>
+              <div class="timeline-body">
+                <% if (e.type == "company"){ %>
+                  <p class="goals"><u><%= panels.timeline.goals_title %>:</u> <%= e.goals %></p>
+                  <p class="tasks"><u><%= panels.timeline.tasks_title %>:</u> <%= e.tasks %></p>
+                  <p class="technologies"><u><%= panels.timeline.technologies_title %>:</u> <%= e.technologies %></p>
+                <% }else{ %>
+                  <p><%= e.body %></p>
+                <% } %>
+              </div>
+            </div>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div><!-- row !-->

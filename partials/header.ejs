@@ -1,0 +1,18 @@
+<div id="header">
+  <img class="img-circle" id="avatar" alt="avatar" src="<%= url('res/avatar.png') %>">
+  <h1><%= title %></h1>
+  <ul class="nav nav-pills pull-right">
+    <li><a href="mailto:<%= email %>" title="Email"><span class="glyphicon glyphicon-envelope"></span>Email</a></li>
+    <li><a href="<%= github_url %>" title="Github"><span class="glyphicon glyphicon-folder-open"></span>Github</a></li>
+    <li><a href="<%= blog_url %>" title="Blog"><span class="glyphicon glyphicon-bold"></span>Blog</a></li>
+  </ul>
+</div>
+<!-- navbar !-->
+<ul id="tabs_menu" class="nav nav-tabs nav-justified" role="tablist">
+  <li class="active"><a href="#home" role="tab" data-toggle="tab">
+    <span class="glyphicon glyphicon-home"></span><%= menu.home %></a>
+  </li>
+  <li><a href="#skills" role="tab" data-toggle="tab">
+    <span class="glyphicon glyphicon-check"></span><%= menu.skills %></a>
+  </li>
+</ul>

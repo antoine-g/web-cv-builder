@@ -1,0 +1,81 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #f7f7f7;
+}
+
+#header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+#header #avatar {
+  width: 80px;
+  height: 80px;
+  display:inline-block;
+  vertical-align:middle;
+}
+#header h1 {
+  display:inline-block;
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+#header ul {
+  vertical-align:middle;
+}
+
+#header .header-button {
+  margin-left:auto;
+  display:block;
+  margin-right:0;
+  width: 40px;
+  height: 40px;
+}
+#header .nav span {
+  font-size: 24px;
+}
+
+.nav .glyphicon, .panel-heading .glyphicon {
+  margin-right: 10px;
+}
+
+.panel-heading {
+  font-size: 20px;
+  background-color:#fff!important;
+  font-weight: 700;
+}
+
+
+.table tbody tr th,.table tbody tr td {
+	border-top:0;
+	padding:6px;
+}
+
+.tab-content {
+  border-top: none;
+  border-radius: 4px;
+  padding: 2%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+footer, #footer_nav {
+  margin-top: 15px;
+  text-align:center;
+}
+
+footer p {
+  margin-bottom:0px;
+}
+
+div.progress-bar {
+  border-radius:4px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+div.progress-1 {background-color:#A1C5E5;}
+div.progress-2 {background-color:#428BCA;}
+div.progress-3 {background-color:#316897;}
+div.progress-4 {background-color:#214565;}
+div.progress-5 {background-color:#18334B;}

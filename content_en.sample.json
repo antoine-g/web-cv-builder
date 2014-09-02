@@ -1,0 +1,116 @@
+﻿{
+  "lang": "en",
+  "title": "My name",
+  "keywords": "keyword1, keyword2",
+  "description": "This is the site description.",
+  "design_footer": "Design inspired from someone",
+  "copyright_date": "2014",
+  "email": "contact@mydomain.tld",
+  "github_url": "http://github.com/mygithubaccount",
+  "blog_url": "http://myblog.com",
+  "paths": {
+    "home": "en/",
+    "home_fr": "",
+    "home_en": "en/"
+  },
+  "menu": {
+    "home": "Home",
+    "skills": "Skills"
+  },
+  "panels": {
+    "about_me": {
+      "title": "About me",
+      "body": [
+        {
+          "title": "Name",
+          "desc": "My name"
+        },
+        {
+          "title": "Age",
+          "desc": "99 years old"
+        },
+        {
+          "title": "Status",
+          "desc": "Looking for a job"
+        },
+        {
+          "title": "School",
+          "desc": "My school name"
+        },
+        {
+          "title": "Major",
+          "desc": "My domain"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Timeline",
+      "goals_title": "Goals",
+      "tasks_title": "Tasks",
+      "technologies_title": "Technologies",
+      "events": [
+        {
+          "type": "company",
+          "title": "Company name",
+          "subtitle": "July 2014 - City, COUNTRY",
+          "goals": "Goals of the job",
+          "tasks": "List of the main given tasks.",
+          "technologies": "Tech1, tech2"
+        },
+        {
+          "type": "school",
+          "title": "School name",
+          "subtitle": "Since 2010",
+          "body": "Content"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "body": [
+        {
+          "title": "Project 1",
+          "desc": "My project desc."
+        },
+        {
+          "title": "Project 2",
+          "desc": "My project desc."
+        }
+      ]
+    }
+  },
+"skills": {
+    "panels": [
+      {
+        "glyphicon": "glyphicon-chevron-right",
+        "title": "Programming languages",
+        "body": [["C++", 5], ["Ruby", 4], ["PHP", 4], ["Javascript", 3], ["Python", 2]]
+      },
+      {
+        "glyphicon": "glyphicon-wrench",
+        "title": "Frameworks/Libraries",
+        "body": [["Ruby On Rails", 4],["Qt", 4], ["ExpressJS", 4], ["jQuery", 3], ["Swing", 3]]
+      },
+      {
+        "glyphicon": "glyphicon-compressed",
+        "title": "Databases",
+        "body": [["Postgres", 4],["MySQL", 4], ["Redis", 3], ["MongoDB", 2], ["Oracle", 1]]
+      },
+      {
+        "glyphicon": "glyphicon-hdd",
+        "title": "Platforms",
+        "body": [["Heroku", 4],["NewRelic", 4],["Openshift", 2]]
+      },
+      {
+        "glyphicon": "glyphicon-list-alt",
+        "title": "Project management",
+        "body": [["UML", 4],["Git", 4],["Mercurial", 4],["Pivotal Tracker", 4],["MantisBT", 3]]
+      },
+      {
+        "glyphicon": "glyphicon-th-large",
+        "title": "IDE",
+        "body": [["SublimeText", 5],["QtCreator", 4],["Atom", 4],["Eclipse", 3]]
+      }
+    ]
+  }
+}

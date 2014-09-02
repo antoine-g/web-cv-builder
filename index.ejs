@@ -1,0 +1,24 @@
+﻿<!DOCTYPE HTML>
+<html lang="<%= lang %>">
+  <head>
+    <% include partials/head.ejs %>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <% include partials/header.ejs %>
+
+      <!-- tabs content !-->
+      <div class="tab-content">
+        <!-- home !-->
+        <div class="tab-pane active" id="home">
+          <% include partials/home.ejs %>
+        </div> <!-- home tab !-->
+        <!-- skills !-->
+        <div class="tab-pane" id="skills">
+          <% include partials/skills.ejs %>
+        </div>
+      </div> <!-- tabs content !-->
+    </div><!-- content !-->
+    <% include partials/footer.ejs %>
+  </body>
+</html>

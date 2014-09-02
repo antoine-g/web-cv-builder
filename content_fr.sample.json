@@ -1,0 +1,116 @@
+﻿{
+  "lang": "fr",
+  "title": "Mon nom",
+  "keywords": "mot clé1, mot clé2",
+  "description": "Description du site.",
+  "design_footer": "Design inspiré de qqn",
+  "copyright_date": "2014",
+  "email": "contact@domaine.tld",
+  "github_url": "http://github.com/mongithub",
+  "blog_url": "#",
+  "paths": {
+    "home": "",
+    "home_fr": "",
+    "home_en": "en/"
+  },
+  "menu": {
+    "home": "Accueil",
+    "skills": "Compétences"
+    },
+  "panels": {
+    "about_me": {
+      "title": "A propos de moi",
+      "body": [
+        {
+          "title": "Nom",
+          "desc": "Mon nom"
+        },
+        {
+          "title": "Age",
+          "desc": "99 ans"
+        },
+        {
+          "title": "Statut",
+          "desc": "En recherche d'emploi'"
+        },
+        {
+          "title": "Ecole",
+          "desc": "Mon école"
+        },
+        {
+          "title": "Formation",
+          "desc": "Ma formation"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Chronologie",
+      "goals_title": "Objectifs",
+      "tasks_title": "Tâches",
+      "technologies_title": "Technologies",
+      "events": [
+        {
+          "type": "company",
+          "title": "Nom de l'entreprise",
+          "subtitle": "Juil. 2014 - Ville, PAYS",
+          "goals": "Mes objectifs",
+          "tasks": "Mes taches",
+          "technologies": "tech1, tech2"
+        },
+        {
+          "type": "school",
+          "title": "Mon école",
+          "subtitle": "Depuis 2010",
+          "body": "Contenu de la formation."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projets",
+      "body": [
+        {
+          "title": "Projet 1",
+          "desc": "description du projet."
+        },
+        {
+          "title": "Projet 2",
+          "desc": "description du projet."
+        }
+      ]
+    }
+  },
+  "skills": {
+    "panels": [
+      {
+        "glyphicon": "glyphicon-chevron-right",
+        "title": "Langages de programmation",
+        "body": [["C++", 5], ["Ruby", 4], ["PHP", 4], ["Javascript", 3], ["Python", 2]]
+      },
+      {
+        "glyphicon": "glyphicon-wrench",
+        "title": "Frameworks/Libraries",
+        "body": [["Ruby On Rails", 4],["Qt", 4], ["ExpressJS", 4], ["jQuery", 3], ["Swing", 3]]
+      },
+      {
+        "glyphicon": "glyphicon-compressed",
+        "title": "Bases de données",
+        "body": [["Postgres", 4],["MySQL", 4], ["Redis", 3], ["MongoDB", 2], ["Oracle", 1]]
+      },
+      {
+        "glyphicon": "glyphicon-hdd",
+        "title": "Plateformes",
+        "body": [["Heroku", 4],["NewRelic", 4],["Openshift", 2]]
+      },
+      {
+        "glyphicon": "glyphicon-list-alt",
+        "title": "Gestion de projets",
+        "body": [["UML", 4],["Git", 4],["Mercurial", 4],["Pivotal Tracker", 4],["MantisBT", 3]]
+      },
+      {
+        "glyphicon": "glyphicon-th-large",
+        "title": "IDE",
+        "body": [["SublimeText", 5],["QtCreator", 4],["Atom", 4],["Eclipse", 3]]
+      }
+    ]
+  }
+}
