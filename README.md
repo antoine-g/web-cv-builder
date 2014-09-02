@@ -12,7 +12,12 @@ Exemple : [http://antoinegiraudmaillet.com/](http://antoinegiraudmaillet.com/)
   * Lancer la tâche "default" de grunt pour générer le site statique : `grunt`
   * Copier le contenu du dossier de sortie `dist` à la racine du serveur de destination
 
-~~~~
+### Licence
+GPLv3 - Voir le fichier LICENCE..
+
+Mention de ce repository et lien très apprécié au footer des sites générés.
+
+---
 
 ## Personal CV-website
 
@@ -27,3 +32,8 @@ Example : [http://antoinegiraudmaillet.com/](http://antoinegiraudmaillet.com/)
   * Install the package with npm : `npm install`
   * Execute grunt "default" task to generate the static website : `grunt`
   * Copy the content of the `dist` output folder to your server root
+
+### Licence
+GPLv3 - See LICENCE file.
+
+Footer mention and link to this this repo is much appreciated.

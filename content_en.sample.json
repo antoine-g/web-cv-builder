@@ -3,7 +3,7 @@
   "title": "My name",
   "keywords": "keyword1, keyword2",
   "description": "This is the site description.",
-  "design_footer": "Design inspired from someone",
+  "design_footer": "Generated with <a href="http://github.com/antoine-g/web-cv-builder">Web-CV-builder</a>",
   "copyright_date": "2014",
   "email": "contact@mydomain.tld",
   "github_url": "http://github.com/mygithubaccount",
