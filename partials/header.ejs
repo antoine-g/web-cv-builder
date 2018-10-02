@@ -4,7 +4,9 @@
   <ul class="nav nav-pills">
     <li><a href="mailto:<%= email %>" title="Email"><span class="glyphicon glyphicon-envelope"></span>Email</a></li>
     <li><a href="<%= github_url %>" title="Github"><span class="glyphicon glyphicon-folder-open"></span>Github</a></li>
+<%if (typeof blog_url != "undefined") { %>
     <li><a href="<%= blog_url %>" title="Blog"><span class="glyphicon glyphicon-bold"></span>Blog</a></li>
+<% } %>
   </ul>
 </div>
 <!-- navbar !-->
