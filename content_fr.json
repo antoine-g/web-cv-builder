@@ -1,0 +1,164 @@
+﻿{
+  "lang": "fr",
+  "title": "Antoine Giraudmaillet",
+  "keywords": "Antoine Giraudmaillet, développeur, C++, Python, Rails, Ruby, Bloomberg LP, Shopmium, UTC, Université de technologie Compiègne, CV, projets, stage, Londres",
+  "description": "Site personnel d&#39;Antoine Giraudmaillet, ingénieur informatique de l&#39;UTC (Université de Technologie de Compiègne) et developpeur à Bloomberg LP à Londres.",
+  "design_footer": "Généré avec <a href='//github.com/antoine-g/web-cv-builder'>Web-CV-builder</a>",
+  "copyright_date": "2018",
+  "email": "antoine@antoinegiraudmaillet.com",
+  "github_url": "//github.com/antoine-g",
+  "blog_url": "#",
+  "paths": {
+    "home": "",
+    "home_fr": "",
+    "home_en": "en/"
+  },
+  "menu": {
+    "home": "Accueil",
+    "skills": "Compétences"
+    },
+  "panels": {
+    "about_me": {
+      "title": "A propos de moi",
+      "body": [
+        {
+          "title": "Nom",
+          "desc": "Antoine Giraudmaillet"
+        },
+        {
+          "title": "Statut",
+          "desc": "Employé"
+        },
+        {
+          "title": "Ecole",
+          "desc": "Université de Technologie de Compiègne"
+        },
+        {
+          "title": "Formation",
+          "desc": "Ingénieur informatique - fillière systèmes et réseaux (SRI)"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Chronologie",
+      "goals_title": "Objectifs",
+      "tasks_title": "Tâches",
+      "technologies_title": "Technologies",
+      "events": [
+        {
+          "type": "company",
+          "title": "Bloomberg LP - Temps plein",
+          "subtitle": "Depuis Août 2015 - Londres, UK",
+          "goals": "Developpement de fonctionalités de collaboration au sein du terminal Bloomberg",
+          "tasks": "Functions utilisées directement par les clients et framework comprenant infrastracture et APIs utilisées par d'autre équipes applicatives.",
+          "technologies": "C++, Python, JS"
+        },
+	{
+          "type": "company",
+          "title": "Bloomberg LP - Stage",
+          "subtitle": "Feb-Jul 2015 - London, UK",
+          "goals": "Collecte et generation de rapports sur la codebase de l'entreprise",
+          "tasks": "Collecte de mesures sur la base de code comprenant nombre de lignes, langages, activité et rendu via un dashboard web.",
+          "technologies": "JS, Python, MPI"
+        },
+        {
+          "type": "company",
+          "title": "Decodd",
+          "subtitle": "Juil. 2014 - Compiègne, FRANCE",
+          "goals": "Développement d'interfaces graphiques en JAVA",
+          "tasks": "Développement de vues pour un prototype d'application de gestion des risques dans le domaine des paris sportifs",
+          "technologies": "JAVA, Swing, Eclipse"
+        },
+	{
+          "type": "company",
+          "title": "Shopmium",
+          "subtitle": "Sept. 2013 - Fév. 2014 - Paris, FRANCE",
+          "goals": "Développement d'une application Rails, intégration de points de vente, internationalisation, amélioration des performances",
+          "tasks": " Scraping, normalisation et import de points de vente en ruby, développement de pages web et API avec Ruby on Rails, refactor des requêtes SQL de budget, amélioration des performances avec l'intégration d'un cache Redis, diminution du temps d''exécution des tests unitaires.",
+          "technologies": "Ruby, Ruby on Rails, PostgreSQL, Heroku, Redis, NewRelic"
+        },
+	{
+          "type": "company",
+          "title": "Thales services",
+          "subtitle": "Jan. 2013 - Mérignac, FRANCE",
+          "goals": "Génération de données pour les tests, mesure des performances de montée en charge",
+          "tasks": "Génération de données de test à l'aide de scripts PHP, création de scénarios JMeter et Gatling, analyse des temps de réponse sur une aplication Symphony en cours de développement.",
+          "technologies": "Jenkins, JMeter, Scala, Gatling, PHP"
+        },
+        {
+          "type": "school",
+          "title": "Université de Technologie de Compiègne",
+          "subtitle": "2010 - 2015",
+          "body": "Ingénieur informatique fillière systèmes et réseaux (SRI)."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projets",
+      "body": [
+        {
+          "title": "Web-CV-builder",
+          "desc": "Paquet NodeJS utilisant Grunt pour générer un site web-CV statique. Ce site a été généré avec cet outil."
+        },
+        {
+          "title": "LiveWall",
+          "desc": "Application NodeJS temps réel qui affiche un mur de messages envoyés par les utilisateurs."
+        },
+	{
+          "title": "Blog auto-hébergé",
+          "desc": "Installation de mon blog sur RaspberryPi à domicile."
+        },
+	{
+          "title": "Ninox",
+          "desc": "Plateforme de partage de documents pour étudiants basée sur Rails."
+        },
+	{
+          "title": "Awale",
+          "desc": "Jeu d'Awalé en CLI écrit en Prolog."
+        },
+	{
+          "title": "NoteManager",
+          "desc": "Gestionnaire de notes écrit en C++ et basé sur Qt dans un cadre scolaire."
+        },
+	{
+          "title": "OSMtools-Indoor",
+          "desc": "Page web utilisant javascript pour afficher la cartographie de l'intérieur des bâtiments présents sur OpenStreetMap, forké et adpaté aux besoins."
+        }
+      ]
+    }
+  },
+  "skills": {
+    "panels": [
+      {
+        "glyphicon": "glyphicon-chevron-right",
+        "title": "Languages de programmation",
+        "body": [["C++", 5], ["Python", 4], ["Javascript", 3], ["Ruby", 2], ["PHP", 2]]
+      },
+      {
+        "glyphicon": "glyphicon-wrench",
+        "title": "Frameworks/Librairies",
+        "body": [["Flask", 4], ["Ruby On Rails", 3],["Qt", 3], ["ExpressJS", 2], ["Swing", 2]]
+      },
+      {
+        "glyphicon": "glyphicon-compressed",
+        "title": "Bases de données",
+        "body": [["Postgres", 4],["MySQL", 4], ["Redis", 3], ["MongoDB", 2], ["Oracle", 1]]
+      },
+      {
+        "glyphicon": "glyphicon-hdd",
+        "title": "Plateformes",
+        "body": [["VPS", 4],["Heroku", 4],["NewRelic", 4],["Openshift", 2]]
+      },
+      {
+        "glyphicon": "glyphicon-list-alt",
+        "title": "Gestionn de projet",
+        "body": [["Scrum", 4],["Jira", 3]]
+      },
+      {
+        "glyphicon": "glyphicon-th-large",
+        "title": "IDE",
+        "body": [["VSCode", 5],["Atom", 4],["Vim", 3],["Eclipse", 3]]
+      }
+    ]
+  }
+}
