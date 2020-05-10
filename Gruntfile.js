@@ -32,7 +32,7 @@ module.exports = function(grunt) {
       main: {
         files: [
           // includes files within path and its sub-directories
-          {expand: true, src: ['res/**'], dest: 'dist/'}
+          {expand: true, src: ['res/**', 'fonts/**'], dest: 'dist/'}
         ]
       }
     }
