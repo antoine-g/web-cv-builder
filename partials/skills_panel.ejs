@@ -1,11 +1,11 @@
 <div class="col-lg-4">
     <div class="panel panel-default">
-      <div class="panel-heading">
+      <div class="panel-heading" role="heading" aria-level="2">
         <span class="glyphicon <%= panel.glyphicon %>"></span><%= panel.title %>
       </div>
-      <div class="panel-body">
+      <div class="panel-body" role="list">
           <% panel.body.forEach(function(i){ %>
-            <div class="skill">
+            <div class="skill" role="listitem">
               <div class="skill_name"><%= i[0] %></div>
               <div class="progress">
                 <% for(j=1; j<=i[1]; j++){ %>

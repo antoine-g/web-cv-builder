@@ -10,11 +10,11 @@
       <!-- tabs content !-->
       <div class="tab-content">
         <!-- home !-->
-        <div class="tab-pane active" id="home">
+        <div class="tab-pane active" role="tabpanel" id="home" aria-labelledby="hometabbtn">
           <%- include('partials/home.ejs', {panels: panels}) %>
         </div> <!-- home tab !-->
         <!-- skills !-->
-        <div class="tab-pane" id="skills">
+        <div class="tab-pane" role="tabpanel" id="skills" aria-labelledby="skillstabbtn">
           <%- include('partials/skills.ejs', {skills: skills}) %>
         </div>
       </div> <!-- tabs content !-->

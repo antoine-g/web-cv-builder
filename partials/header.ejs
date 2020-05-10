@@ -1,5 +1,5 @@
-<div id="header">
-  <img class="img-circle" id="avatar" alt="avatar" src="<%= url('res/avatar.png') %>">
+<div id="header" role="heading" aria-level="1">
+  <img class="img-circle" id="avatar" alt="avatar" src="<%= url('res/avatar.png') %>"/>
   <h1><%= title %></h1>
   <ul class="nav nav-pills">
     <li><a href="mailto:<%= email %>" title="Email"><span class="glyphicon glyphicon-envelope"></span>Email</a></li>
@@ -11,10 +11,10 @@
 </div>
 <!-- navbar !-->
 <ul id="tabs_menu" class="nav nav-tabs nav-justified" role="tablist">
-  <li class="active"><a href="#home" role="tab" data-toggle="tab">
+  <li class="active"><a href="#home" role="tab" aria-controls="home" id="hometabbtn" data-toggle="tab">
     <span class="glyphicon glyphicon-home"></span><%= menu.home %></a>
   </li>
-  <li><a href="#skills" role="tab" data-toggle="tab">
+  <li><a href="#skills" role="tab" aria-controls="skills" id="skillstabbtn" data-toggle="tab">
     <span class="glyphicon glyphicon-check"></span><%= menu.skills %></a>
   </li>
 </ul>

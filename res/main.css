@@ -3,6 +3,10 @@ body {
   background-color: #f7f7f7;
 }
 
+body a {
+  color: #214565;
+}
+
 #header {
   margin-top: 20px;
   margin-bottom: 20px;
