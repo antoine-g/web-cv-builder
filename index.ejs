@@ -1,24 +1,24 @@
 ﻿<!DOCTYPE HTML>
 <html lang="<%= lang %>">
   <head>
-    <% include partials/head.ejs %>
+    <%- include('partials/head.ejs', {keywords: keywords, description: description, title: title}) %>
   </head>
   <body>
     <div class="container-fluid">
-      <% include partials/header.ejs %>
+    <%- include('partials/header.ejs', {title: title, email: email, github_url: github_url, blog_url: blog_url, menu: menu}) %>
 
       <!-- tabs content !-->
       <div class="tab-content">
         <!-- home !-->
         <div class="tab-pane active" id="home">
-          <% include partials/home.ejs %>
+          <%- include('partials/home.ejs', {panels: panels}) %>
         </div> <!-- home tab !-->
         <!-- skills !-->
         <div class="tab-pane" id="skills">
-          <% include partials/skills.ejs %>
+          <%- include('partials/skills.ejs', {skills: skills}) %>
         </div>
       </div> <!-- tabs content !-->
     </div><!-- content !-->
-    <% include partials/footer.ejs %>
+    <%- include('partials/footer.ejs', {paths: paths, title: title, copyright_date: copyright_date, design_footer: design_footer}) %>
   </body>
 </html>

@@ -1,12 +1,13 @@
 ﻿{
   "lang": "fr",
   "title": "Antoine Giraudmaillet",
-  "keywords": "Antoine Giraudmaillet, développeur, C++, Python, Rails, Ruby, Bloomberg LP, Shopmium, UTC, Université de technologie Compiègne, CV, projets, stage, Londres",
-  "description": "Site personnel d&#39;Antoine Giraudmaillet, ingénieur informatique de l&#39;UTC (Université de Technologie de Compiègne) et developpeur à Bloomberg LP à Londres.",
+  "keywords": "Antoine Giraudmaillet, développeur, C++, Python, Rails, Ruby, Bloomberg LP, Shopmium, UTC, Université de technologie Compiègne, CV, projets, ingénieur informatique senior, software engineer, Londres, Royaume-Uni",
+  "description": "Site personnel d&#39;Antoine Giraudmaillet, ingénieur informatique de l&#39;UTC (Université de Technologie de Compiègne) et ingénieur sénior à Bloomberg LP à Londres.",
   "design_footer": "Généré avec <a href='//github.com/antoine-g/web-cv-builder'>Web-CV-builder</a>",
-  "copyright_date": "2018",
+  "copyright_date": "2015-2020",
   "email": "antoine@antoinegiraudmaillet.com",
   "github_url": "//github.com/antoine-g",
+  "blog_url": null,
   "paths": {
     "home": "",
     "home_fr": "",
@@ -18,7 +19,7 @@
     },
   "panels": {
     "about_me": {
-      "title": "A propos de moi",
+      "title": "À propos de moi",
       "body": [
         {
           "title": "Nom",
@@ -29,7 +30,7 @@
           "desc": "Employé"
         },
         {
-          "title": "Ecole",
+          "title": "École",
           "desc": "Université de Technologie de Compiègne"
         },
         {
@@ -50,7 +51,7 @@
           "subtitle": "Depuis Août 2015 - Londres, UK",
           "goals": "Developpement de fonctionalités de collaboration au sein du terminal Bloomberg",
           "tasks": "Functions utilisées directement par les clients et framework comprenant infrastracture et APIs utilisées par d'autre équipes applicatives.",
-          "technologies": "C++, Python, JS"
+          "technologies": "C++, Python, Typescript, Redis, Solr"
         },
 	{
           "type": "company",
@@ -64,9 +65,9 @@
           "type": "company",
           "title": "Decodd",
           "subtitle": "Juil. 2014 - Compiègne, FRANCE",
-          "goals": "Développement d'interfaces graphiques en JAVA",
+          "goals": "Développement d'interfaces graphiques en Java",
           "tasks": "Développement de vues pour un prototype d'application de gestion des risques dans le domaine des paris sportifs",
-          "technologies": "JAVA, Swing, Eclipse"
+          "technologies": "Java, Swing, Eclipse"
         },
 	{
           "type": "company",
@@ -131,26 +132,26 @@
       {
         "glyphicon": "glyphicon-chevron-right",
         "title": "Languages de programmation",
-        "body": [["C++", 5], ["Python", 4], ["Javascript", 3], ["Ruby", 2], ["PHP", 2]]
+        "body": [["C++", 5], ["Python", 4], ["Javascript", 3], ["Ruby", 2], ["Elixir", 1]]
       },
       {
         "glyphicon": "glyphicon-wrench",
         "title": "Frameworks/Librairies",
-        "body": [["Flask", 4], ["Ruby On Rails", 3],["Qt", 3], ["ExpressJS", 2], ["Swing", 2]]
+        "body": [["BDE", 4], ["Flask", 4], ["Ruby On Rails", 3],["Qt", 3], ["ExpressJS", 3]]
       },
       {
         "glyphicon": "glyphicon-compressed",
         "title": "Bases de données",
-        "body": [["Postgres", 4],["MySQL", 4], ["Redis", 3], ["MongoDB", 2], ["Oracle", 1]]
+        "body": [["Postgres", 4],["MySQL", 4], ["Redis", 3], ["MongoDB", 2]]
       },
       {
         "glyphicon": "glyphicon-hdd",
         "title": "Plateformes",
-        "body": [["VPS", 4],["Heroku", 4],["NewRelic", 4],["Openshift", 2]]
+        "body": [["VPS", 4],["Heroku", 4],["Openstack", 3]]
       },
       {
         "glyphicon": "glyphicon-list-alt",
-        "title": "Gestionn de projet",
+        "title": "Gestion de projet",
         "body": [["Scrum", 4],["Jira", 3]]
       },
       {
